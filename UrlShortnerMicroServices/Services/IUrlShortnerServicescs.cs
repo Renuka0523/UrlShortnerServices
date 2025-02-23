@@ -14,6 +14,6 @@
         /// <param name="shortCode"></param>
         /// <returns>It show long url for given short url</returns>
         Task<string?> GetOriginalUrlAsync(string shortCode);
-
+        
     }
 }
